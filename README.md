@@ -1,10 +1,10 @@
-# 🔎 Anomaly Detection via Deep One-Class Classification Using Vision Transformers
+# Anomaly Detection via Deep One-Class Classification Using Vision Transformers
 
 This project presents a one-class anomaly detection approach using a pretrained Vision Transformer (ViT) and Deep SVDD. The goal is to detect anomalies in the CIFAR-10 dataset by learning only the distribution of the "ship" class and identifying deviations.
 
 ---
 
-## 📌 Overview
+## Overview
 
 - **Problem**: Most real-world anomaly detection tasks lack anomalous samples during training.
 - **Solution**: Learn the latent space of the normal class (ship) using ViT and detect anomalies using Deep SVDD.
@@ -12,16 +12,16 @@ This project presents a one-class anomaly detection approach using a pretrained 
 
 ---
 
-## 🧠 Methods
+## Methods
 
-### 🔹 Feature Extraction
+### Feature Extraction
 
 - Model: Pretrained Vision Transformer (ViT-Base)
 - Dataset: CIFAR-10
 - Input: Normalized and resized images
 - Feature vector: Final hidden representation of the CLS token
 
-### 🔹 Anomaly Detection Models
+### Anomaly Detection Models
 
 - **Deep SVDD**  
   Minimizes the volume of a hypersphere enclosing the normal class representations  
@@ -34,7 +34,7 @@ This project presents a one-class anomaly detection approach using a pretrained 
 
 ---
 
-## 📊 Results
+## Results
 
 | Method            | AUC    | F1 Score |
 |-------------------|--------|----------|
@@ -50,14 +50,14 @@ This project presents a one-class anomaly detection approach using a pretrained 
 
 ---
 
-## 📁 Files
+## Files
 
 - `Project.ipynb`: End-to-end implementation including feature extraction, model training, and evaluation
 - `Report.pdf`: Final project report with detailed methodology and figures
 
 ---
 
-## 📚 Dataset
+## Dataset
 
 - CIFAR-10  
 - Normal class: `ship`  
@@ -66,7 +66,7 @@ This project presents a one-class anomaly detection approach using a pretrained 
 
 ---
 
-## 👥 Authors
+## Authors
 
 - Berker Eriş  
 - Enes Yemenli  
@@ -78,7 +78,7 @@ This project presents a one-class anomaly detection approach using a pretrained 
 >  Contact: sari22@itu.edu.tr
 ---
 
-## 📌 Notes
+
 
 This project was completed as part of the **BLG454E - Deep Learning** course in Spring 2025.  
 The methods were implemented using PyTorch and Scikit-learn.
