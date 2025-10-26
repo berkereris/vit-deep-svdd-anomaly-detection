@@ -52,8 +52,8 @@ This project presents a one-class anomaly detection approach using a pretrained 
 
 ## 📁 Files
 
-- `BLG454codesipynb.ipynb`: End-to-end implementation including feature extraction, model training, and evaluation
-- `7906605.pdf`: Final project report with detailed methodology and figures
+- `Project.ipynb`: End-to-end implementation including feature extraction, model training, and evaluation
+- `Report.pdf`: Final project report with detailed methodology and figures
 
 ---
 
@@ -73,7 +73,7 @@ This project presents a one-class anomaly detection approach using a pretrained 
 - Emircan Sarı  
 
 > Department of Artificial Intelligence and Data Engineering, Istanbul Technical University  
-> Contact: erisb22@itu.edu.tr
+> Contact: berkereris1@gmail.com
 > Contact: yemenli22@itu.edu.tr
 >  Contact: sari22@itu.edu.tr
 ---
